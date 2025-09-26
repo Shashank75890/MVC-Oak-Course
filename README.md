@@ -1,36 +1,75 @@
-***MVC-Oak-Course***
- 
- Developed a web application using the MVC architecture (C#, ASP.NET MVC) to display and manage Oak Academy’s training programs.
- 
- Designed and implemented layered architecture including Data Access Layer (DAL), -Business Logic Layer (BLL), and Data Transfer Objects (DTOs) to ensure separation of concerns and maintainability.
- 
- Built responsive UI using HTML, CSS, JavaScript for smooth user interaction.
+# MVC-Oak-Course
 
-✨ **Features**
+**MVC-Oak-Course** is a web application developed using the Model-View-Controller (MVC) architecture with C# and ASP.NET MVC. This project was created as part of my coursework to demonstrate my understanding of web development principles and the MVC design pattern.
 
-Course Management – Create, edit, and delete courses with categories and metadata.
+## 🧠 Project Overview
 
-Admin Panel – Secure area for administrators to manage content and users.
+The application is designed to display and manage training programs offered by Oak Academy. It features a layered architecture, including:
 
-Responsive UI – Mobile-friendly pages styled with Bootstrap.
+- **Data Access Layer (DAL)**: Handles database interactions.
+- **Business Logic Layer (BLL)**: Contains the business logic of the application.
+- **Data Transfer Objects (DTOs)**: Facilitates data transfer between layers.
+- **User Interface (UI)**: Provides a responsive and interactive user experience.
 
-Data Layer – Organized DAL/BLL architecture for clean separation of concerns.
+## ⚙️ Technologies Used
 
-🛠 **Tech Stack**
-**Layer**	      **Technology**
-Frontend	  ASP.NET MVC Razor Views, HTML5, CSS3, JavaScript, Bootstrap
-Backend	    C#, ASP.NET MVC 5
-Database	  SQL Server
-ORM	Entity  Framework
-Tools	      Visual Studio 2022, Git/GitHub
+- **Programming Language**: C#
+- **Framework**: ASP.NET MVC
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: SQL Server
+- **Development Environment**: Visual Studio
+- **Version Control**: Git & GitHub
+
+## 🚀 Features
+
+- **Course Management**: Admins can create, edit, and delete courses, assigning them to categories and adding metadata.
+- **Admin Panel**: A secure area for administrators to manage courses and users.
+- **Responsive UI**: Designed with HTML, CSS, and JavaScript for a smooth user experience.
+
+## 📂 Project Structure
+
+MVC-Oak-Course/
+├── BLL/ # Business Logic Layer
+├── DAL/ # Data Access Layer
+├── DTO/ # Data Transfer Objects
+├── UI/ # User Interface
+├── OakCourse.sln # Solution File
+├── .gitignore # Git Ignore File
+└── README.md # Project Documentation
 
 
-📂 **Project Structure**
+## 🛠️ Setup Instructions
 
-BLL – Business logic layer
+To set up this project locally:
 
-DAL – Data access layer
+1. Clone the repository:
 
-DTO – Data transfer objects
+   ```bash
+   git clone https://github.com/Shashank75890/MVC-Oak-Course
+2. Open the solution file OakCourse.sln in Visual Studio.
 
-UI – Views, controllers, and static assets
+3. Ensure you have SQL Server installed and configure the connection string in the application to point to your local database.
+
+4. Build and run the application within Visual Studio.
+
+## 💡 Learning Outcomes
+
+Through this project, I have gained hands-on experience in:
+
+Implementing the Model-View-Controller (MVC) design pattern in a web application.
+
+Structuring applications using a layered architecture for maintainability and scalability.
+
+Interacting with SQL Server databases using ADO.NET.
+
+Building responsive user interfaces with HTML, CSS, and JavaScript.
+
+## 📌 Future Enhancements
+
+Future versions of this project may include:
+
+Integration with Entity Framework for ORM-based database interactions.
+
+Implementation of user authentication and authorization.
+
+Enhanced UI/UX design with modern frontend frameworks.
